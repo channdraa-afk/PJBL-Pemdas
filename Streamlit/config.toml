@@ -1,10 +1,23 @@
 [theme]
-primaryColor="#d3164f"
-backgroundColor="#1b59ea"
-secondaryBackgroundColor="#0b7437"
-textColor="#F8FAFC"
-font="Sans Serif"
+primaryColor = "#bb9af7"
+backgroundColor = "#1a1b26"
+secondaryBackgroundColor = "#24283b"
+textColor = "#c0caf5"
+font = "monospace"
 
 [client]
 showErrorDetails = false
-toolbarMode="minimal"
+toolbarMode = "minimal"
+
+[server]
+port = 8501
+enableCORS = false
+enableXsrfProtection = false
+maxUploadSize = 200
+address = "0.0.0.0"
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+fastReruns = true
