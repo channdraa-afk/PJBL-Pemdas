@@ -8,7 +8,7 @@ st.set_page_config(
 with st.sidebar:
     col1, col2, col3 = st.columns([1,2,1])
     with col2:
-        st.image("foto.jpeg")
+        st.image("Streamlit/foto.jpeg")
     st.title("Bangun Datar")
     pilihan = st.selectbox("Pilih Bangun Datar", ["Persegi", "Persegi Panjang", "Lingkaran"])
     st.caption("Dibuat dengan :fire: oleh **Chandra**")
